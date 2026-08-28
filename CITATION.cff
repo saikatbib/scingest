@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: scIngest
+message: >-
+  If you use this software, please cite it as below, and also cite
+  Seurat, Scanpy, and AnnData, together with the original study behind
+  any GEO accession you processed.
+type: software
+authors:
+  - given-names: Saikat
+    email: saikatbib@gmail.com
+repository-code: "https://github.com/PENDING/scingest"
+abstract: >-
+  A cross-platform desktop application that builds Seurat and Scanpy
+  objects from GEO accessions and local 10x directories, with automatic
+  format detection, a mandatory human confirmation step, and a full
+  provenance record.
+license: MIT
+version: 0.0.1

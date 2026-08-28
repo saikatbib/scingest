@@ -1,0 +1,48 @@
+# --- Data must never be committed. See docs/LICENSING_AND_LEGAL_AUDIT.md 6.1 ---
+*.h5ad
+*.h5mu
+*.rds
+*.qs
+*.qs2
+*.loom
+*.h5Seurat
+*.mtx
+*.mtx.gz
+*.tar
+*.tar.gz
+barcodes.tsv*
+features.tsv*
+genes.tsv*
+matrix.mtx*
+core/tests/golden/data/
+.cache/
+downloads/
+
+# --- Secrets ---
+.env
+*.token
+.gh_token
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Node / Electron ---
+node_modules/
+app/dist/
+release/
+*.log
+
+# --- OS ---
+.DS_Store
+Thumbs.db
