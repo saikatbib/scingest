@@ -2,8 +2,6 @@
 
 **Build Seurat and Scanpy objects from GEO accessions or local 10x directories — without writing code.**
 
-> ⚠️ **Pre-release.** Name not final, and public release is pending institutional
-> clearance. See `docs/LICENSING_AND_LEGAL_AUDIT.md`.
 
 ---
 
